@@ -5,7 +5,8 @@
   "description": "Yet another mongodb api (express)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
   },
   "homepage": "https://github.com/roalcantara/mongo-api#readme",
   "author": "@roalcantara <rogerio.alcantara@gmail.com>",
@@ -25,5 +26,13 @@
     "mondodb",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.5",
+    "@types/node": "^20.12.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.3"
+  }
 }

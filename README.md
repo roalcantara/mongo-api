@@ -16,6 +16,12 @@ Yet another mongodb api (express)
 - [pre-commit][8]
 - [gitlint][9]
 
+## Usage
+
+- Run `npm install` to install dependencies
+- Run `npm start` to start the server
+- Run `npm run dev` to start the server in development mode
+
 ## Acknowledgements
 
 - [Standard Readme][4]
