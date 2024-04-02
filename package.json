@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "mongo-api",
+  "version": "1.0.0",
+  "description": "Yet another mongodb api (express)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/roalcantara/mongo-api#readme",
+  "author": "@roalcantara <rogerio.alcantara@gmail.com>",
+  "url": "https://github.com/roalcantara/mongo-api/issues",
+  "email": "rogerio.alcantara@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roalcantara/mongo-api.git"
+  },
+  "engines": {
+    "node": ">=21.7.1",
+    "npm": ">=10.5.0"
+  },
+  "keywords": [
+    "boilerplate",
+    "typescript",
+    "mondodb",
+    "express"
+  ],
+  "license": "MIT"
+}
