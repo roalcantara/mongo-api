@@ -1,0 +1,43 @@
+# REST Client
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+@protocol = http
+@hostname = localhost
+@port = 3000
+@resource = customers
+@host = {{protocol}}://{{hostname}}:{{port}}
+@url = {{host}}/{{resource}}
+@id = 660b737c2dbf7edaa76f7a84
+@id2 = 660b7c043fc0612896cff54d
+
+### @name GET /customers
+GET {{url}} HTTP/1.1
+
+### @name GET /customers/:id
+GET {{url}}/{{id}} HTTP/1.1
+
+### @name POST /customers
+POST {{url}} HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Dick Grason",
+	"email": "dick@wayne.com",
+	"phone": "1234556777",
+  "address": "Bat street, 123 -  Gotham City"
+}
+
+
+### @name GET /customers/:id2
+GET {{url}}/{{id2}} HTTP/1.1
+
+### @name PUT /customers/:id2
+PUT {{url}}/{{id2}} HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Dick Grason Wayne"
+}
+
+### @name DELETE /customers/:id2
+DELETE {{url}}/{{id2}} HTTP/1.1
